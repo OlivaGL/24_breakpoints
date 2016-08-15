@@ -1,0 +1,21 @@
+body {
+	background-color: gray
+}
+/* Por defecto, que se utlizará en pantallas pequeñas */	
+@media (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+/* Pantallas de anchura 768 px y superior */
+@media (min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+/* Pantallas de anchura 1200 px y superior */
+@media (min-width: 1200px) {
+    body {
+        background-color: black;
+    }
+}
